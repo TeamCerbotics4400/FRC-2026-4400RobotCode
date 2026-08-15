@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 2.2,
+        "y": 2.537
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 2.7463855421686674,
+        "y": 1.4660843373493975
+      },
+      "isLocked": false,
+      "linkedName": "LCIntake2DS2Right"
+    },
+    {
+      "anchor": {
+        "x": 3.5820120481927713,
+        "y": 0.6036987951807224
+      },
+      "prevControl": {
+        "x": 2.9372771084337352,
+        "y": 1.3358554216867469
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.85,
+    "maxAcceleration": 5.85,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 0.0
+  },
+  "reversed": false,
+  "folder": "L+CAutoRight",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -128.5301800148268
+  },
+  "useDefaultConstraints": true
+}

@@ -1,0 +1,54 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 0.6,
+        "y": 4.985710843373495
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 1.3204381797653237,
+        "y": 5.44467469879518
+      },
+      "isLocked": false,
+      "linkedName": "IntakeDepotSP2"
+    },
+    {
+      "anchor": {
+        "x": 1.8,
+        "y": 5.740332147093714
+      },
+      "prevControl": {
+        "x": 1.014,
+        "y": 5.433746987951806
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": null
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.85,
+    "maxAcceleration": 5.85,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 136.31188778250416
+  },
+  "reversed": false,
+  "folder": "SecondPickAuto",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": -92.19327583289818
+  },
+  "useDefaultConstraints": true
+}

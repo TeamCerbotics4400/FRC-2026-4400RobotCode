@@ -1,0 +1,97 @@
+{
+  "version": "2025.0",
+  "waypoints": [
+    {
+      "anchor": {
+        "x": 8.11701204819277,
+        "y": 7.8
+      },
+      "prevControl": null,
+      "nextControl": {
+        "x": 6.281156626506024,
+        "y": 7.8308072289156625
+      },
+      "isLocked": false,
+      "linkedName": "Intake1SP1Real"
+    },
+    {
+      "anchor": {
+        "x": 5.647349397590362,
+        "y": 7.6
+      },
+      "prevControl": {
+        "x": 7.18873494925522,
+        "y": 7.585600751796926
+      },
+      "nextControl": {
+        "x": 2.4127469879518073,
+        "y": 7.63021686746988
+      },
+      "isLocked": false,
+      "linkedName": null
+    },
+    {
+      "anchor": {
+        "x": 2.0,
+        "y": 7.3
+      },
+      "prevControl": {
+        "x": 1.7500204802273913,
+        "y": 7.296800047772874
+      },
+      "nextControl": null,
+      "isLocked": false,
+      "linkedName": "Intake1SP2Real"
+    }
+  ],
+  "rotationTargets": [],
+  "constraintZones": [
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 0,
+      "maxWaypointRelativePos": 0.732506203473922,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 1.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    },
+    {
+      "name": "Constraints Zone",
+      "minWaypointRelativePos": 1.4233250620347644,
+      "maxWaypointRelativePos": 2.0,
+      "constraints": {
+        "maxVelocity": 1.5,
+        "maxAcceleration": 1.5,
+        "maxAngularVelocity": 540.0,
+        "maxAngularAcceleration": 720.0,
+        "nominalVoltage": 12.0,
+        "unlimited": false
+      }
+    }
+  ],
+  "pointTowardsZones": [],
+  "eventMarkers": [],
+  "globalConstraints": {
+    "maxVelocity": 5.85,
+    "maxAcceleration": 5.85,
+    "maxAngularVelocity": 540.0,
+    "maxAngularAcceleration": 720.0,
+    "nominalVoltage": 12.0,
+    "unlimited": false
+  },
+  "goalEndState": {
+    "velocity": 0,
+    "rotation": 179.23431486788655
+  },
+  "reversed": false,
+  "folder": "SecondPickAuto",
+  "idealStartingState": {
+    "velocity": 0,
+    "rotation": 179.26339507791727
+  },
+  "useDefaultConstraints": true
+}
